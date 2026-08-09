@@ -1,0 +1,58 @@
+[
+  {
+    "query_id": "Q01",
+    "question": "Phạm vi điều chỉnh của Thông tư 02/2023/TT-NHNN là gì?",
+    "relevant_chunk_ids": ["ADV_TT_02_2023_H_001"],
+    "scope": "in_scope",
+    "needs_human_review": true
+  },
+  {
+    "query_id": "Q02",
+    "question": "Điều kiện để tổ chức tín dụng cơ cấu lại thời hạn trả nợ gốc là gì?",
+    "relevant_chunk_ids": ["ADV_TT_02_2023_H_002", "ADV_TT_02_2023_H_003"],
+    "scope": "in_scope",
+    "needs_human_review": true
+  },
+  {
+    "query_id": "Q03",
+    "question": "Thời gian cơ cấu lại thời hạn trả nợ tối đa là bao nhiêu tháng?",
+    "relevant_chunk_ids": ["ADV_TT_02_2023_H_003"],
+    "scope": "in_scope",
+    "needs_human_review": true
+  },
+  {
+    "query_id": "Q04",
+    "question": "Quy định về việc giữ nguyên nhóm nợ được quy định tại Điều mấy?",
+    "relevant_chunk_ids": ["ADV_TT_02_2023_H_004"],
+    "scope": "in_scope",
+    "needs_human_review": true
+  },
+  {
+    "query_id": "Q05",
+    "question": "Doanh nghiệp bị sụt giảm dòng tiền được hoãn trả lãi vay như thế nào?",
+    "relevant_chunk_ids": ["ADV_TT_02_2023_H_005", "ADV_TT_02_2023_H_006"],
+    "scope": "in_scope",
+    "needs_human_review": true
+  },
+  {
+    "query_id": "Q06",
+    "question": "Tổ chức tín dụng thực hiện trích lập dự phòng rủi ro như thế nào?",
+    "relevant_chunk_ids": ["ADV_TT_02_2023_H_007"],
+    "scope": "in_scope",
+    "needs_human_review": true
+  },
+  {
+    "query_id": "Q07",
+    "question": "Quy định về thi bằng lái xe ô tô hạng B2 gồm những phần thi nào?",
+    "relevant_chunk_ids": ["ADV_OUT_SCOPE_H_008"],
+    "scope": "out_of_scope",
+    "needs_human_review": true
+  },
+  {
+    "query_id": "Q08",
+    "question": "Thủ tục đăng ký thành lập doanh nghiệp cổ phần cần những giấy tờ gì?",
+    "relevant_chunk_ids": [],
+    "scope": "out_of_scope",
+    "needs_human_review": true
+  }
+]
