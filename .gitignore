@@ -1,0 +1,25 @@
+# Environment variables (Bảo mật API Key & Secrets)
+.env
+*.env
+!.env.example
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Databases & Vector Stores
+storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

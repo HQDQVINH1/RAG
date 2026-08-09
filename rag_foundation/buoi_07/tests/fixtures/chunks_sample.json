@@ -1,0 +1,42 @@
+[
+  {
+    "chunk_id": "doc_sample_01_hierarchical_001",
+    "strategy": "hierarchical",
+    "source": "TT_sample_2024.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "text": "Điều 1. Phạm vi điều chỉnh. Thông tư này quy định về hoạt động kiểm tra và giám sát đối với hệ thống ngân hàng."
+  },
+  {
+    "chunk_id": "doc_sample_01_hierarchical_002",
+    "strategy": "hierarchical",
+    "source": "TT_sample_2024.pdf",
+    "page_start": 2,
+    "page_end": 3,
+    "text": "Điều 2. Đối tượng áp dụng. Các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài và tổ chức, cá nhân có liên quan."
+  },
+  {
+    "chunk_id": "doc_sample_01_hierarchical_003",
+    "strategy": "hierarchical",
+    "source": "TT_sample_2024.pdf",
+    "page_start": 4,
+    "page_end": 4,
+    "text": "Điều 3. Nguyên tắc kiểm tra. Đảm bảo tính khách quan, minh bạch và đúng quy định của pháp luật hiện hành."
+  },
+  {
+    "chunk_id": "doc_sample_01_semantic_001",
+    "strategy": "semantic",
+    "source": "TT_sample_2024.pdf",
+    "page_start": 5,
+    "page_end": 6,
+    "text": "Quy trình phân tích rủi ro tín dụng bao gồm thu thập dữ liệu khách hàng, đánh giá chỉ số tài chính và thẩm định phương án kinh doanh."
+  },
+  {
+    "chunk_id": "doc_sample_01_fixed-size_001",
+    "strategy": "fixed-size",
+    "source": "TT_sample_2024.pdf",
+    "page_start": 7,
+    "page_end": 7,
+    "text": "Báo cáo giám sát định kỳ phải được gửi trước ngày 10 hàng tháng về Ngân hàng Nhà nước Việt Nam."
+  }
+]
