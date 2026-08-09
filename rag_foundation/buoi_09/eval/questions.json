@@ -1,0 +1,69 @@
+[
+  {
+    "question_id": "Q01",
+    "question": "Điều 8 quy định những nhu cầu vốn nào không được cho vay?",
+    "question_type": "exact",
+    "relevant_child_ids": [
+      "TT_39_2016_NHNN.pdf_hierarchical_012",
+      "TT_06_2023_NHNN.pdf_hierarchical_010"
+    ],
+    "relevant_parent_ids": [
+      "TT_39_2016_NHNN.pdf_parent_Điều_8_Những_nhu_cầu_vốn_không_được_cho_vay_1_4d6fa62da39f",
+      "TT_06_2023_NHNN.pdf_parent_Điều_1_Sửa_đổi_bổ_sung_một_số_điều_của_Thông_tư_số_39_2016_TT_NHNN_2_85d116633bfa"
+    ],
+    "needs_human_review": true,
+    "notes": "Điều 8 Thông tư 39/2016 được sửa đổi bổ sung bởi Điều 1 Thông tư 06/2023."
+  },
+  {
+    "question_id": "Q02",
+    "question": "Khách hàng cần đáp ứng những yêu cầu gì để được tổ chức tín dụng xem xét cho vay?",
+    "question_type": "paraphrase",
+    "relevant_child_ids": [
+      "TT_39_2016_NHNN.pdf_hierarchical_010"
+    ],
+    "relevant_parent_ids": [
+      "TT_39_2016_NHNN.pdf_parent_Điều_7_Điều_kiện_vay_vốn_1_0fad3b00adc6"
+    ],
+    "needs_human_review": true,
+    "notes": "Câu hỏi diễn giải (paraphrase) cho Điều 7 Điều kiện vay vốn."
+  },
+  {
+    "question_id": "Q03",
+    "question": "Điều kiện vay vốn và những nhu cầu vốn không được cho vay được quy định như thế nào?",
+    "question_type": "multi_aspect",
+    "relevant_child_ids": [
+      "TT_39_2016_NHNN.pdf_hierarchical_010",
+      "TT_39_2016_NHNN.pdf_hierarchical_012",
+      "TT_06_2023_NHNN.pdf_hierarchical_010"
+    ],
+    "relevant_parent_ids": [
+      "TT_39_2016_NHNN.pdf_parent_Điều_7_Điều_kiện_vay_vốn_1_0fad3b00adc6",
+      "TT_39_2016_NHNN.pdf_parent_Điều_8_Những_nhu_cầu_vốn_không_được_cho_vay_1_4d6fa62da39f",
+      "TT_06_2023_NHNN.pdf_parent_Điều_1_Sửa_đổi_bổ_sung_một_số_điều_của_Thông_tư_số_39_2016_TT_NHNN_2_85d116633bfa"
+    ],
+    "needs_human_review": true,
+    "notes": "Câu hỏi nhiều khía cạnh kết hợp Điều 7 và Điều 8."
+  },
+  {
+    "question_id": "Q04",
+    "question": "Quy định về cơ cấu lại thời hạn trả nợ gồm điều kiện, thời gian và trách nhiệm nào?",
+    "question_type": "hierarchy_context",
+    "relevant_child_ids": [
+      "TT_02_2023_NHNN.pdf_hierarchical_005"
+    ],
+    "relevant_parent_ids": [
+      "TT_02_2023_NHNN.pdf_parent_Điều_2_Đối_tượng_áp_dụng_1_451e32647605"
+    ],
+    "needs_human_review": true,
+    "notes": "Câu hỏi yêu cầu ngữ cảnh rộng Điều 4 Thông tư 02/2023."
+  },
+  {
+    "question_id": "Q05",
+    "question": "Lãi suất tiết kiệm cao nhất trên thị trường hôm nay là bao nhiêu?",
+    "question_type": "out_of_scope",
+    "relevant_child_ids": [],
+    "relevant_parent_ids": [],
+    "needs_human_review": false,
+    "notes": "Câu hỏi ngoài phạm vi văn bản quy phạm pháp luật ngân hàng."
+  }
+]
