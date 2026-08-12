@@ -42,7 +42,7 @@ def load_config() -> Dict[str, Any]:
     """
     env_path = BASE_DIR / ".env"
     if env_path.exists():
-        load_dotenv(dotenv_path=env_path)
+        load_dotenv(dotenv_path=env_path, override=True)
 
     api_key = os.getenv("GEMINI_API_KEY", "").strip()
     embedding_model = os.getenv("GEMINI_EMBEDDING_MODEL", "gemini-embedding-2").strip()

@@ -121,16 +121,27 @@ def load_output_files():
     """Find all processed chunk JSON files in output/ directory."""
     if not OUTPUT_DIR.exists():
         return {}
-    chunk_files = list(OUTPUT_DIR.glob("chunks_*.json"))
-    data_map = {}
+    chunk_files = list(OUTPUT_DIR.glob("chunks_*.json")) + list((OUTPUT_DIR / "chunks").glob("chunks_*.json"))
+    seen = set()
+    unique_chunk_files = []
     for cf in chunk_files:
+        if cf.resolve() not in seen:
+            seen.add(cf.resolve())
+            unique_chunk_files.append(cf)
+
+    data_map = {}
+    for cf in unique_chunk_files:
         try:
             with open(cf, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 source_name = data.get("source", cf.stem.replace("chunks_", "") + ".pdf")
+                raw_filename = f"raw_ocr_{Path(source_name).stem}.json"
+                raw_file = cf.parent / raw_filename
+                if not raw_file.exists():
+                    raw_file = OUTPUT_DIR / raw_filename
                 data_map[source_name] = {
                     "chunk_file": cf,
-                    "raw_file": OUTPUT_DIR / f"raw_ocr_{Path(source_name).stem}.json",
+                    "raw_file": raw_file,
                     "data": data
                 }
         except Exception as e:
