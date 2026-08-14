@@ -1,0 +1,79 @@
+﻿document_id,entity,entity_type,source,method,confidence,evidence
+166170,Quốc hội,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Quốc hội
+166170,Vương Đình Huệ,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Vương Đình Huệ (Chủ tịch Quốc hội)
+166170,Tín dụng,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Tín dụng
+112025,Chính phủ,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Chính phủ
+112025,Nguyễn Xuân Phúc,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Nguyễn Xuân Phúc (Thủ tướng)
+38128,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+38128,Đào Minh Tú,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đào Minh Tú (Phó Thống đốc)
+38128,Phát hành và kho quỹ,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Phát hành và kho quỹ
+26750,Quốc hội,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Quốc hội
+26750,Nguyễn Phú Trọng,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Nguyễn Phú Trọng (Chủ tịch Quốc hội)
+163441,Chính phủ,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Chính phủ
+163441,Lê Minh Khái,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Lê Minh Khái (Phó Thủ tướng Chính phủ)
+163441,Bảo hiểm,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Bảo hiểm
+146468,Chính phủ,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Chính phủ
+146468,Nguyễn Xuân Phúc,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Nguyễn Xuân Phúc (Thủ tướng)
+146468,Chứng khoán,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Chứng khoán
+168220,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+168220,Đào Minh Tú,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đào Minh Tú (Phó Thống đốc)
+168220,"Thanh tra, giám sát ngân hàng",LinhVuc,metadata,original,1.0,"Metadata linh_vuc: Thanh tra, giám sát ngân hàng"
+133858,Chính phủ,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Chính phủ
+133858,Nguyễn Xuân Phúc,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Nguyễn Xuân Phúc (Thủ tướng)
+169221,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+169221,Phạm Thanh Hà,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Phạm Thanh Hà (Phó Thống đốc)
+169221,Quản lý ngoại hối,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Quản lý ngoại hối
+95652,Chính phủ,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Chính phủ
+95652,Nguyễn Tấn Dũng,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Nguyễn Tấn Dũng (Thủ tướng Chính phủ)
+f69936f0-6937-11f1-a48d-29bc6b0fd706,Bộ Tài chính,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Bộ Tài chính
+f69936f0-6937-11f1-a48d-29bc6b0fd706,Nguyễn Đức Chi,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Nguyễn Đức Chi (Thứ trưởng)
+30402,Bộ Tài chính,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Bộ Tài chính
+30402,Trần Xuân Hà,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Trần Xuân Hà (Thứ trưởng)
+30402,Quản lý dịch vụ tài chính và các quỹ tài chính,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Quản lý dịch vụ tài chính và các quỹ tài chính
+173460,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+173460,Đoàn Thái Sơn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đoàn Thái Sơn (Phó Thống đốc)
+173460,"Thanh tra, giám sát ngân hàng",LinhVuc,metadata,original,1.0,"Metadata linh_vuc: Thanh tra, giám sát ngân hàng"
+27257,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+27257,Trần Minh Tuấn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Trần Minh Tuấn (Phó Thống đốc)
+143217,Bộ Tài chính,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Bộ Tài chính
+168859,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+168859,Đào Minh Tú,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đào Minh Tú (Phó Thống đốc)
+168859,"Thanh tra, giám sát ngân hàng",LinhVuc,metadata,original,1.0,"Metadata linh_vuc: Thanh tra, giám sát ngân hàng"
+150974,Bộ Tài chính,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Bộ Tài chính
+150974,Tạ Anh Tuấn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Tạ Anh Tuấn (Thứ trưởng)
+150974,"Kế toán, kiểm toán",LinhVuc,metadata,original,1.0,"Metadata linh_vuc: Kế toán, kiểm toán"
+164719,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+164719,Đoàn Thái Sơn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đoàn Thái Sơn (Phó Thống đốc Ngân hàng Nhà nước Việt Nam)
+164719,"Thanh tra, giám sát ngân hàng",LinhVuc,metadata,original,1.0,"Metadata linh_vuc: Thanh tra, giám sát ngân hàng"
+173695,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+173695,Đoàn Thái Sơn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đoàn Thái Sơn (Phó Thống đốc)
+173695,"Thanh tra, giám sát ngân hàng",LinhVuc,metadata,original,1.0,"Metadata linh_vuc: Thanh tra, giám sát ngân hàng"
+186482,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+186482,Đoàn Thái Sơn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đoàn Thái Sơn (Phó Thống đốc)
+186482,Cục An toàn hệ thống các tổ chức tín dụng,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Cục An toàn hệ thống các tổ chức tín dụng
+112924,Bộ Tài chính,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Bộ Tài chính
+112924,Trần Xuân Hà,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Trần Xuân Hà (Thứ trưởng)
+174218,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+174218,Đoàn Thái Sơn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đoàn Thái Sơn (Phó Thống đốc)
+174218,"Thanh tra, giám sát ngân hàng",LinhVuc,metadata,original,1.0,"Metadata linh_vuc: Thanh tra, giám sát ngân hàng"
+186888,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+186888,Đoàn Thái Sơn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đoàn Thái Sơn (Phó Thống đốc)
+186888,Cục An toàn hệ thống các tổ chức tín dụng,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Cục An toàn hệ thống các tổ chức tín dụng
+6e689cd0-6f81-11f1-94d6-fd5d6d5ff793,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+6e689cd0-6f81-11f1-94d6-fd5d6d5ff793,Đoàn Thái Sơn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đoàn Thái Sơn (Phó Thống đốc)
+185630,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+185630,Đoàn Thái Sơn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đoàn Thái Sơn (Phó Thống đốc)
+185630,"Lao động, tiền lương, tiền công",LinhVuc,metadata,original,1.0,"Metadata linh_vuc: Lao động, tiền lương, tiền công"
+117310,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+117310,Nguyễn Đồng Tiến,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Nguyễn Đồng Tiến (Phó Thống đốc)
+117310,"Thanh tra, giám sát ngân hàng",LinhVuc,metadata,original,1.0,"Metadata linh_vuc: Thanh tra, giám sát ngân hàng"
+166269,Quốc hội,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Quốc hội
+166269,Vương Đình Huệ,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Vương Đình Huệ (Chủ tịch Quốc hội)
+177271,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+177271,Đoàn Thái Sơn,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đoàn Thái Sơn (Phó Thống đốc)
+177271,Cục An toàn hệ thống các tổ chức tín dụng,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Cục An toàn hệ thống các tổ chức tín dụng
+44209,Ngân hàng Nhà nước Việt Nam,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Ngân hàng Nhà nước Việt Nam
+44209,Đào Minh Tú,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Đào Minh Tú (Phó Thống đốc)
+44209,Phát hành và kho quỹ,LinhVuc,metadata,original,1.0,Metadata linh_vuc: Phát hành và kho quỹ
+25692,Quốc hội,CoQuan,metadata,original,1.0,Metadata co_quan_ban_hanh: Quốc hội
+25692,Nguyễn Phú Trọng,NguoiKy,metadata,original,1.0,Metadata nguoi_ky: Nguyễn Phú Trọng (Chủ tịch Quốc hội)
