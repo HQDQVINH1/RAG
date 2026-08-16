@@ -1,0 +1,11 @@
+﻿question_id,question,expected_chunk_id,query_type,bm25_rank,bm25_mrr,dense_rank,dense_mrr,hybrid_rank,hybrid_mrr,rerank_rank,rerank_mrr,bm25_hit1,bm25_hit3,bm25_hit5,dense_hit1,dense_hit3,dense_hit5,hybrid_hit1,hybrid_hit3,hybrid_hit5,rerank_hit1,rerank_hit3,rerank_hit5
+Q01,Thông tư 01/2014/TT-NHNN quy định về giao nhận bảo quản tiền mặt,44209_c002,EXACT_KEYWORD,999,0.0,3,0.3333333333333333,1,1.0,3,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+Q02,Quy định về thu chi tiền mặt trực tiếp với khách hàng tại Ngân hàng Nhà nước,44209_c011,SEMANTIC,1,1.0,1,1.0,1,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Q03,Nội quy kho tiền và trang phục giao dịch viên tại quầy giao dịch,44209_c044,SEMANTIC,1,1.0,1,1.0,1,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Q04,Thẩm quyền của Thủ tướng Chính phủ theo Nghị định 135/2015/NĐ-CP,95652_c030,MIXED,2,0.5,1,1.0,1,1.0,2,0.5,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+Q05,Thẩm quyền quyết định cấp Giấy phép theo Văn bản hợp nhất 52/VBHN-NHNN,6e689cd0-6f81-11f1-94d6-fd5d6d5ff793_c006,MIXED,999,0.0,2,0.5,4,0.25,5,0.2,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0
+Q06,Nguyên tắc thu chi tiền mặt ngoại tệ và giấy tờ có giá theo 01/2014/TT-NHNN,44209_c008,MIXED,1,1.0,1,1.0,1,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Q07,Quy định việc giao nhận tiền mặt theo bó 10 thếp nguyên niêm phong trong ngành Ngân hàng,44209_c012,SEMANTIC,3,0.3333333333333333,1,1.0,1,1.0,1,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Q08,Xử lý trường hợp thiếu mất tiền do nguyên nhân chủ quan trong kho tiền,44209_c068,SEMANTIC,1,1.0,1,1.0,1,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Q09,Thông tư 43/2024/TT-NHNN sửa đổi bổ sung Thông tư 01/2014/TT-NHNN,169221_c002,EXACT_KEYWORD,2,0.5,2,0.5,1,1.0,999,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0
+Q10,Vị trí và chức năng của Ngân hàng Nhà nước Việt Nam theo Luật 46/2010/QH12,25692_c003,MIXED,4,0.25,1,1.0,2,0.5,4,0.25,0.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0

@@ -1,0 +1,11 @@
+question_id,question,expected_chunk_id,query_type,note
+Q01,Thông tư 01/2014/TT-NHNN quy định về giao nhận bảo quản tiền mặt,44209_c002,EXACT_KEYWORD,Phạm vi điều chỉnh Thông tư 01/2014/TT-NHNN
+Q02,Quy định về thu chi tiền mặt trực tiếp với khách hàng tại Ngân hàng Nhà nước,44209_c011,SEMANTIC,Thu chi tiền mặt với khách hàng
+Q03,Nội quy kho tiền và trang phục giao dịch viên tại quầy giao dịch,44209_c044,SEMANTIC,Nội quy bảo hộ và trang phục kho tiền
+Q04,Thẩm quyền của Thủ tướng Chính phủ theo Nghị định 135/2015/NĐ-CP,95652_c030,MIXED,Thẩm quyền của Thủ tướng Chính phủ
+Q05,Thẩm quyền quyết định cấp Giấy phép theo Văn bản hợp nhất 52/VBHN-NHNN,6e689cd0-6f81-11f1-94d6-fd5d6d5ff793_c006,MIXED,Thẩm quyền quyết định cấp Giấy phép
+Q06,Nguyên tắc thu chi tiền mặt ngoại tệ và giấy tờ có giá theo 01/2014/TT-NHNN,44209_c008,MIXED,Nguyên tắc thu chi tiền mặt
+Q07,Quy định việc giao nhận tiền mặt theo bó 10 thếp nguyên niêm phong trong ngành Ngân hàng,44209_c012,SEMANTIC,Giao nhận tiền mặt theo bó 10 thếp
+Q08,Xử lý trường hợp thiếu mất tiền do nguyên nhân chủ quan trong kho tiền,44209_c068,SEMANTIC,Xử lý thiếu mất tiền nguyên nhân chủ quan
+Q09,Thông tư 43/2024/TT-NHNN sửa đổi bổ sung Thông tư 01/2014/TT-NHNN,169221_c002,EXACT_KEYWORD,Sửa đổi bổ sung Thông tư 01/2014
+Q10,Vị trí và chức năng của Ngân hàng Nhà nước Việt Nam theo Luật 46/2010/QH12,25692_c003,MIXED,Vị trí chức năng Ngân hàng Nhà nước
