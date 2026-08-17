@@ -208,8 +208,11 @@ if submit_button or query_input:
         # Tab Graph Hints Bảo mật
         st.markdown("---")
         st.subheader("🌐 Secure Graph Hints (Thông tin Đồ thị theo Phân quyền)")
-        st.markdown(f"- **Số bản ghi Neo4j khớp với quyền {selected_roles}:** `{graph_hints['records_count']}`")
-        if graph_hints['hints']:
-            st.dataframe(pd.DataFrame(graph_hints['hints']), use_container_width=True)
+        st.markdown(f"- **Trạng thái Neo4j Database:** `{graph_hints.get('neo4j_status', 'N/A')}`")
+        st.markdown(f"- **Số quan hệ 1-hop hợp lệ cho vai trò {selected_roles}:** `{graph_hints.get('records_count', 0)}`")
+        
+        direct_rels = graph_hints.get('direct_relations', [])
+        if direct_rels:
+            st.dataframe(pd.DataFrame(direct_rels), use_container_width=True)
         else:
-            st.info("Không có thông tin đồ thị trực tiếp hoặc người dùng không có quyền xem thông tin liên quan.")
+            st.info("Không có quan hệ đồ thị trực tiếp 1-hop hoặc người dùng không có quyền xem thông tin liên quan.")

@@ -307,29 +307,69 @@ class SecureRetriever:
     def get_graph_hints(self, results: List[Dict[str, Any]], user_roles: List[str]) -> Dict[str, Any]:
         """
         Lấy Graph hints từ Neo4j cho danh sách kết quả, lọc tuyệt đối theo user_roles.
+        Trả về dữ liệu nguyên thủy (primitive string/dict) tương thích 100% với PyArrow/Streamlit.
         """
         if not results:
-            return {'graph_nodes': [], 'graph_relationships': []}
+            return {
+                'retrieved_document_ids': [],
+                'retrieved_chunk_ids': [],
+                'neo4j_status': 'NO_RESULTS',
+                'direct_relations': [],
+                'records_count': 0
+            }
             
-        chunk_ids = [r['chunk_id'] for r in results]
+        retrieved_chunk_ids = [r['chunk_id'] for r in results]
+        retrieved_doc_ids = sorted(list(set(r['document_id'] for r in results)))
         
         from neo4j import GraphDatabase
-        driver = GraphDatabase.driver(self.neo4j_config['uri'], auth=(self.neo4j_config['user'], self.neo4j_config['password']))
         
-        cypher = """
-        MATCH (v:VanBan)-[:CONTAINS]->(d:DieuKhoan)
-        WHERE d.id IN $chunk_ids
-          AND any(role IN d.allowed_roles WHERE role IN $user_roles)
-        OPTIONAL MATCH (v)-[r]-(v2:VanBan)
-        WHERE any(role IN v2.allowed_roles WHERE role IN $user_roles)
-        RETURN v, d, r, v2
-        """
+        uri = self.neo4j_config['uri']
+        user = self.neo4j_config['user']
+        password = self.neo4j_config['password']
+        database = self.neo4j_config['database']
         
-        with driver.session(database=self.neo4j_config['database']) as session:
-            records = session.run(cypher, {'chunk_ids': chunk_ids, 'user_roles': user_roles}).data()
+        relations_hint = []
+        neo4j_available = False
+        
+        try:
+            driver = GraphDatabase.driver(uri, auth=(user, password))
+            driver.verify_connectivity()
+            neo4j_available = True
             
-        driver.close()
-        return {'records_count': len(records), 'hints': records}
+            cypher = """
+            MATCH (v1:VanBan)-[r]->(v2:VanBan)
+            WHERE (v1.id IN $doc_ids OR v2.id IN $doc_ids)
+              AND any(role IN v1.allowed_roles WHERE role IN $user_roles)
+              AND any(role IN v2.allowed_roles WHERE role IN $user_roles)
+            RETURN v1.id AS source_doc, v1.title AS source_title,
+                   type(r) AS rel_type, r.relationship_desc AS desc,
+                   v2.id AS target_doc, v2.title AS target_title,
+                   v1.allowed_roles AS v1_roles
+            """
+            
+            with driver.session(database=database) as session:
+                records = session.run(cypher, {'doc_ids': retrieved_doc_ids, 'user_roles': user_roles}).data()
+                for rec in records:
+                    relations_hint.append({
+                        'Source Doc': str(rec.get('source_doc', '')),
+                        'Source Title': str(rec.get('source_title', ''))[:40] + '...',
+                        'Relation': str(rec.get('rel_type', '')),
+                        'Description': str(rec.get('desc', '')) if rec.get('desc') else '-',
+                        'Target Doc': str(rec.get('target_doc', '')),
+                        'Target Title': str(rec.get('target_title', ''))[:40] + '...',
+                        'Allowed Roles': str(rec.get('v1_roles', []))
+                    })
+            driver.close()
+        except Exception:
+            neo4j_available = False
+            
+        return {
+            'retrieved_document_ids': retrieved_doc_ids,
+            'retrieved_chunk_ids': retrieved_chunk_ids,
+            'neo4j_status': 'CONNECTED' if neo4j_available else 'OFFLINE/NO_HINTS',
+            'direct_relations': relations_hint,
+            'records_count': len(relations_hint)
+        }
 
 if __name__ == "__main__":
     sr = SecureRetriever()
