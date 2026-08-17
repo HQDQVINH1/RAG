@@ -1,0 +1,16 @@
+{
+  "roles": [
+    "Admin",
+    "HR_Manager",
+    "Risk_Officer",
+    "Employee",
+    "Guest"
+  ],
+  "description": {
+    "Admin": "Toàn quyền quản trị hệ thống và truy cập tất cả tài liệu",
+    "HR_Manager": "Quản lý nhân sự, truy cập tài liệu nhân sự và thông tin chung",
+    "Risk_Officer": "Quản lý rủi ro và tuân thủ, truy cập tài liệu rủi ro và thông tin chung",
+    "Employee": "Nhân viên chính thức, truy cập quy trình làm việc và tài liệu chung",
+    "Guest": "Khách/Người dùng công khai, chỉ xem các tài liệu công khai"
+  }
+}
