@@ -139,9 +139,9 @@ RBAC SETUP CONFIRMATION
 ## 3.2. PROMPT 1 — Phân loại tài liệu và Gán tag bảo mật (Security Tagging)
 
 Học viên sẽ yêu cầu Agent viết script tự động phân bổ quyền truy cập cho tập dữ liệu. Quy tắc phân bổ mẫu:
-- Quyết định nhân sự, lương thưởng, kỷ luật chỉ cho `HR`, `Admin`.
-- Quy định quản trị rủi ro tín dụng chỉ cho `Risk_Manager`, `Admin`.
-- Nội quy lao động, quy trình chung cho `Staff`, `Guest`.
+- Quyết định nhân sự, lương thưởng, kỷ luật chỉ cho `HR_manager`, `Admin`.
+- Quy định quản trị rủi ro tín dụng chỉ cho `Risk_officer`, `Admin`.
+- Nội quy lao động, quy trình chung cho `employee`, `Admin`, `HR_manager`, `Risk_officer`.
 
 ```text
 Tiếp tục bài thực hành Buổi 15. Chúng ta làm việc hoàn toàn trong `buoi_14/`. Không sửa dữ liệu gốc trong `../kb+hops/`.
@@ -154,9 +154,9 @@ YÊU CẦU:
    - Tạo cột mới tên là `allowed_roles` chứa danh sách các vai trò (dạng chuỗi JSON hoặc list được phân tách bằng dấu phẩy) được phép truy cập chunk đó.
    - Quy tắc phân bổ:
      * Dựa trên `document_id` hoặc từ khóa trong `text` để phân loại:
-       + Nếu tài liệu liên quan đến "nhân sự", "lương thưởng", "tuyển dụng", "bổ nhiệm" (hoặc mã tài liệu nhân sự): allowed_roles = ["Admin", "HR"]
-       + Nếu tài liệu liên quan đến "tín dụng", "rủi ro", "hạn mức", "phê duyệt duyệt vay": allowed_roles = ["Admin", "Risk_Manager", "Staff"]
-       + Các tài liệu quy định chung khác: allowed_roles = ["Admin", "HR", "Risk_Manager", "Staff", "Guest"]
+       + Nếu tài liệu liên quan đến "nhân sự", "lương thưởng", "tuyển dụng", "bổ nhiệm" (hoặc mã tài liệu nhân sự): allowed_roles = ["Admin", "HR_manager"]
+       + Nếu tài liệu liên quan đến "tín dụng", "rủi ro", "hạn mức", "phê duyệt duyệt vay": allowed_roles = ["Risk_officer", "Admin"]
+       + Các tài liệu quy định chung khác: allowed_roles = ["Admin", "HR_manager", "Risk_officer", "employee"]
 3. Ghi file kết quả ra `buoi_14/data/processed/chunks_secure.csv`.
 4. Viết hàm kiểm tra để đảm bảo:
    - Mọi dòng đều có ít nhất 1 role được phân quyền (không bị trống/null).
